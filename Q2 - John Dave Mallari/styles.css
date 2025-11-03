@@ -1,0 +1,28 @@
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2E8B57;
+    text-align: center;
+}
+.intro {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+}
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: italic;
+    color: #555555;
+    margin: 20px 0;
+}
+.note {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    color: #FF4500;
+    background-color: #FFFACD;
+    padding: 10px;
+    border-left: 4px solid #ff4400f5;
+}

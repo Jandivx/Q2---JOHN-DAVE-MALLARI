@@ -1,0 +1,68 @@
+:root{  
+    --primary-color: rgb(255, 234, 164);
+    --secondary-color: rgb(151, 9, 9);
+    --accent: rgb(228, 149, 59);
+    --bg: burlywood;
+    --text: black;
+    --muted: rgb(165, 109, 5);
+    --border: 7px solid rgb(228, 149, 59);
+    --shadow: rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 40px 20px;
+    font-family: var(--font);
+    background: linear-gradient(135deg, var(--primary-color), var(--bg));
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background: white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+    transition: all 0.3s ease;
+}
+thead th{
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+
+}
+th, td{
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.3)
+}
+tbody tr:hover{
+    background-color: #f1f1f1;
+}
+
+tbody th{
+    background-color: black;
+    border: 1px solid rgba(37,99,235,0.699);
+    color: white;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+tbody th:hover{
+    background-color: var(--secondary);
+}
